@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+
+</h:head>
+
+	<h:body>
+		<h:outputStylesheet>
+            h2, form {
+            margin-top: 50px;
+            text-align: center;
+            }
+        </h:outputStylesheet>
+	
+	    <h2>Olá. Favor selecionar a seção.</h2>
+	    
+	    <h:form>
+		    <h2></h2>
+		    <h:commandButton value="Clientes" action="#{indexController.goToClientPage}" style="margin-right: 10px"  />
+		    <h:commandButton value="Produtos" action="#{indexController.goToProdutoPage}" />
+		</h:form>
+	    
+	    
+	    
+	</h:body>
+</html>
